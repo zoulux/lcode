@@ -25,3 +25,9 @@ func generateList(arr []int) *ListNode {
 
 	return dummy.Next
 }
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
